@@ -1,4 +1,4 @@
-# Full Adder – Verilog Implementation
+# Full Adder
 
 This project contains the Verilog implementation of a Full Adder using direct combinational logic. A Full Adder performs binary addition of three 1-bit inputs: `A`, `B`, and `Cin` (carry-in), and produces a `Sum` and `Cout` (carry-out).
 
