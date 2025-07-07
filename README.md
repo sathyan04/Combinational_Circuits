@@ -18,8 +18,8 @@ Each module in this repository includes:
 ### Modules Included:
 - Half Adder
 - Half Subtractor
-- Full Adder (coming soon)
-- Full Subtractor (coming soon)
+- Full Adder
+- Full Subtractor
 - 4-bit Ripple Carry Adder
 - Multiplexer (2:1, 4:1, etc.)
 - Demultiplexer
