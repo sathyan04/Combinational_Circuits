@@ -1,4 +1,4 @@
-# Half Adder – Verilog Implementation
+# Half Adder
 
 This project contains the Verilog implementation of a Half Adder. A Half Adder is a basic combinational logic circuit used to perform the addition of two single-bit binary numbers.
 
