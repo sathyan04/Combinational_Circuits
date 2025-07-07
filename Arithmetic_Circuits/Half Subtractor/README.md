@@ -1,4 +1,4 @@
-# Half Subtractor – Verilog Implementation
+# Half Subtractor
 
 This project contains the Verilog implementation of a Half Subtractor. A Half Subtractor is a combinational logic circuit that performs subtraction of two single-bit binary numbers.
 
