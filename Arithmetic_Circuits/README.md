@@ -12,9 +12,8 @@ This folder contains RTL implementations of fundamental arithmetic combinational
 - Full Subtractor using Two Half Subtractors  
 - 4-bit Ripple Carry Adder  
 - 4-bit Ripple Borrow Subtractor  
-- Binary Adder Subtractor  
-- BCD Adder  
-- Look-Ahead Carry Adder (CLA)
+- Binary Adder Subtractor
+- Simple ALU (1-bit)
 
 ## Files Included
 
