@@ -37,7 +37,6 @@ The initial carry-in is also set to `cin`.
 
 - Xilinx Vivado  
 - Verilog HDL  
-- GTKWave (for waveform viewing)
 
 ## How to Simulate
 
