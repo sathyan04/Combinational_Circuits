@@ -1,4 +1,4 @@
-# 4x1 Multiplexer (Behavioral Model)
+# 4x1 Multiplexer
 
 ## Description
 
