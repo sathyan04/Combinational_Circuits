@@ -9,6 +9,7 @@ A 4x1 MUX selects one of four input signals based on a 2-bit select line and for
 
 - `mux_4x1.v` – Verilog module for 4x1 MUX (behavioral)
 - `mux_4x1_tb.v` – Testbench for simulation
+- `mux_4x1_schematic.png` – Schematic Diagram
 
 ## I/O Ports
 
