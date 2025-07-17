@@ -1,4 +1,4 @@
-# 2:1 Multiplexer
+# 2x1 Multiplexer
 
 This project implements a 2:1 multiplexer using Verilog HDL. A multiplexer (MUX) is a combinational circuit that selects one of two input signals and forwards it to the output based on a select line.
 
