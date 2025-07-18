@@ -6,18 +6,10 @@ These circuits manage the flow of data within a digital system using control sig
 
 ## Circuits Implemented
 
-- 2x1 Multiplexer
-- 4x1 Multiplexer
-- 8x1 Multiplexer (using 4x1 and 2x1)
-- 8x1 Multiplexer (using 2x1 only)
-- 1x2 Demultiplexer
-- 1x4 Demultiplexer
-- 1x8 Demultiplexer
-- 2x4 Decoder
-- 3x8 Decoder
-- 4x2 Encoder
-- 8x3 Encoder
-- Priority Encoder (8x3)
+- Multiplexers
+- Demultiplexers
+- Decoders
+- Encoders
 - Tristate Buffer
 - Bus Switch
 
