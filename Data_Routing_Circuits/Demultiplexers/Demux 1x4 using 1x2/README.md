@@ -1,4 +1,4 @@
-# 1x4 Demultiplexer using 1x2 Demultiplexers (Hierarchical Design)
+# 1x4 Demultiplexer using 1x2 Demultiplexers
 
 This project implements a **1:4 demultiplexer** using Verilog HDL by hierarchically instantiating **three 1:2 demultiplexers**. A demultiplexer (DEMUX) is a combinational circuit that takes a single input and routes it to one of several outputs based on the select inputs.
 
