@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-module excoder_16x4_tb;
+module encoder_16x4_tb;
     reg [15:0]in;
     wire [3:0]out;
     encoder_16x4 dut(.in(in),.out(out));
