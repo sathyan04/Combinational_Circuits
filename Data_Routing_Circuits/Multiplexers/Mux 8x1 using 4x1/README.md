@@ -13,7 +13,7 @@ An 8x1 multiplexer takes 8 input signals and routes one of them to the output ba
 
 - `mux_2x1.v` – Verilog code for 2x1 multiplexer
 - `mux_4x1.v` – Verilog code for 4x1 multiplexer
-- `mux_8x1_using_4x1_and_2x1.v` – Top module for 8x1 MUX using 4x1 and 2x1
+- `mux_8x1.v` – Top module for 8x1 MUX using 4x1 and 2x1
 - `mux_8x1_tb.v` – Testbench to verify all input and select combinations
 
 ## Testbench Details
