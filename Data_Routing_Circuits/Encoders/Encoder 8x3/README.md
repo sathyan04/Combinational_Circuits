@@ -1,25 +1,29 @@
-# 4x2 Encoder
+# 8x3 Encoder
 
-This project implements a 4-to-2 encoder using Verilog HDL. An encoder is a combinational circuit that converts one of several active inputs into a binary code representing its position.
+This project implements an 8-to-3 encoder using Verilog HDL. An encoder is a combinational circuit that generates a binary code corresponding to the position of the active input.
 
 ## Logic Description
 
-A 4x2 encoder takes **4 input lines** (`I0` to `I3`) and produces a **2-bit binary output** (`Y1`, `Y0`) indicating the active input line. It is assumed that **only one input is high at any time** (one-hot input condition).
+The 8x3 encoder accepts **8 inputs** (`I0` to `I7`) and generates a **3-bit output** (`Y2`, `Y1`, `Y0`). It assumes that only one of the inputs is high at a time.
 
 ### Output Mapping
 
-| Input Lines | Output (Y1 Y0) |
-|-------------|----------------|
-| 0001 (I0)   | 00             |
-| 0010 (I1)   | 01             |
-| 0100 (I2)   | 10             |
-| 1000 (I3)   | 11             |
+| Input Lines | Output (Y2 Y1 Y0) |
+|-------------|-------------------|
+| 0000 0001   | 000               |
+| 0000 0010   | 001               |
+| 0000 0100   | 010               |
+| 0000 1000   | 011               |
+| 0001 0000   | 100               |
+| 0010 0000   | 101               |
+| 0100 0000   | 110               |
+| 1000 0000   | 111               |
 
 ## Files Included
 
-- `encoder_4x2.v` – Verilog module for the 4x2 encoder
-- `encoder_4x2_tb.v` – Testbench for simulation
-- `encoder_4x2_schematic.png` – RTL schematic (optional)
+- `encoder_8x3.v` – Verilog module for the 8x3 encoder
+- `encoder_8x3_tb.v` – Testbench for simulation
+- `encoder_8x3_schematic.png` – RTL schematic (optional)
 
 ## Tools Used
 
@@ -28,10 +32,10 @@ A 4x2 encoder takes **4 input lines** (`I0` to `I3`) and produces a **2-bit bina
 
 ## How to Run
 
-1. Create a project in Vivado.
-2. Add the source file `encoder_4x2.v` and testbench `encoder_4x2_tb.v`.
+1. Create a new project in Vivado.
+2. Add both `encoder_8x3.v` and `encoder_8x3_tb.v` to the sources.
 3. Set the testbench as the top module.
 4. Run Behavioral Simulation.
-5. (Optional) Synthesize and view the RTL schematic.
+5. (Optional) View the synthesized design to inspect the logic.
 
 ---
