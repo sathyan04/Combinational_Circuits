@@ -6,8 +6,8 @@ This project demonstrates the hierarchical design of an 8-to-1 multiplexer using
 
 An 8x1 multiplexer takes 8 input signals and routes one of them to the output based on a 3-bit select input. In this design:
 
-- The two least significant bits of the select line (`sel[1:0]`) are used to control the two 4x1 multiplexers.
-- The most significant bit of the select line (`sel[2]`) is used to select between the outputs of the two 4x1 MUXes using a 2x1 multiplexer.
+- The two least significant bits of the select line are used to control the two 4x1 multiplexers.
+- The most significant bit of the select line is used to select between the outputs of the two 4x1 MUXes using a 2x1 multiplexer.
 
 ## File Structure
 
