@@ -7,7 +7,7 @@ module mux_8x1(
     output y
     );
     wire w1,w2;
-    mux_4x1 m1(.sel(sel[1:0]),.in(in[3:0]),.y(w1));
-    mux_4x1 m2(.sel(sel[1:0]),.in(in[7:4]),.y(w2));
-    mux_2x1 m3(.sel(sel[2]),.a(w1),.b(w2),.y(y));
+    mux_4x1 m1(.sel(sel[2:1]),.in(in[7:4]),.y(w1));
+    mux_4x1 m2(.sel(sel[2:1]),.in(in[3:0]),.y(w2));
+    mux_2x1 m3(.sel(sel[0]),.a(w1),.b(w2),.y(y));
 endmodule
